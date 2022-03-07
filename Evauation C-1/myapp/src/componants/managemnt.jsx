@@ -18,10 +18,7 @@ export function  Counter(){
     const handleinkpens=(value)=>{
         setCountinkpens(countinkpens+value)
     };
-
-
-
-     return (
+    return (
     <div className="items">
     <div className="Books">
     <span>Books:</span>
@@ -63,7 +60,7 @@ export function  Counter(){
     </button>
     <span className="totalInkpens">{countinkpens}</span>
     </div>
-    <span className="total">{countpens + countbooks +countnoteboks+ countinkpens }</span>
+    <div className="total">{countpens + countbooks +countnoteboks+ countinkpens }</div>
   </div>
     );
 }
