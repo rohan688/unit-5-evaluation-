@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "name": "classic",
+      "owner": "rohan",
+      "address": "thane",
+      "code": "1234",
+      "rent": "1234",
+      "preferred": "bachelors",
+      "id": 1
+    }
+  ]
+}
